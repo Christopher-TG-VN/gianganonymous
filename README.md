@@ -1,2 +1,0 @@
-# gianganonymous
-Hacker Vietnamese
